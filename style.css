@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
     font-family: "Poppins", sans-serif;
 }
@@ -480,3 +481,503 @@ text-shadow: 0px 0px 1px black;
     background: #cd9915;
 }
 /*Footer section */
+=======
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/*Navbar section*/
+.navbar-expand-lg {
+
+    background-color: rgb(36, 39, 85) !important;
+    height: 75px !important;
+    background-color: transparent;
+
+
+}
+
+@media (max-width: 990px) {
+    .navbar-collapse {
+        background: rgb(36, 39, 85);
+        box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+        width: 200px !important;
+        position: absolute;
+        top: 75px;
+        right: 0;
+        height: 57vh;
+        /* عشان يكون مثل القائمة الجانبية */
+        padding-top: 15px;
+        line-height: 0px;
+        
+    }
+
+    .navbar-collapse .btn-outline-success {
+        margin-left: 35px;
+       margin-top: 20px;
+    }
+
+    .navbar-toggler {
+
+        border:3px solid #d7a424 !important; /* تغيير لون البوردر */
+       
+       
+    }
+    
+    .navbar-toggler-icon {
+        filter: invert(85%) sepia(100%) saturate(300%) hue-rotate(10deg);
+       
+    }
+   
+}
+
+.navbar-nav {
+    display: flex;
+    gap: 42px;
+
+
+}
+
+
+
+
+.navbar-nav a {
+    color:  #b0bac1 !important;
+    font-weight: 650;
+    font-size: 18px;
+    text-transform: capitalize;
+    border-bottom: 2px solid transparent;
+    transition: all 0.40s;
+}
+
+.navbar-nav a:hover {
+
+    color:  #d7a424  !important;
+}
+
+.logo {
+    margin-bottom: 2px;
+    font-size: 36px;
+    font-weight: 1000px !important;
+
+    text-shadow: 0px 1px 1px black;
+}
+
+.logo span {
+    color: #f6a10e;
+}
+
+.control {
+    margin-right: 5px;
+    padding-right: 20px !important;
+    margin-top: 16px;
+    width: 220px;
+    border-radius: 40px !important;
+    height: 40px;
+    border: none;
+
+
+}
+
+
+
+.navbar-toggler {
+    margin-right: 15px;
+
+}
+
+.btn {
+    margin-right: 20px;
+    color: #fdfdfe;
+    border-color: #d7a424  !important;
+    border-radius: 40px !important;
+    height: 40px;
+    width: 110px;
+    border: 2px solid #d7a424 ;
+    background-color: #d7a424 ;
+    transition: all 0.42s;
+}
+
+.btn:hover {
+    color: #f1a829;
+    background-color: transparent;
+}
+
+/*Navbar section*/
+
+/*home section*/
+.home {
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/background2.jpg);
+    margin-top: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container- {
+    text-align: center;
+    padding-top: 200px;
+}
+
+.container- h5,
+h1,
+p,
+a {
+    color: white;
+}
+
+.container- h5 {
+    text-transform: uppercase;
+    font-size: 38px;
+    font-weight: 500px;
+}
+
+.container- h1 {
+
+    font-size: 70px;
+    font-weight: 550px;
+    margin-top: 5px;
+}
+
+.container- p {
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 600px;
+    margin-bottom: 30px;
+    margin-top: 5px;
+}
+
+.changecontent {
+
+    color: #d48c0f;
+}
+
+.btn- {
+    color: #090101;
+    border-color: #ffffff !important;
+    border-radius: 8px !important;
+    height: 40px;
+    width: 115px;
+    border: 2px solid #003459;
+    background-color: #f5f7f9;
+    transition: all 0.42s;
+}
+
+.btn-:hover {
+    color: #ffffff;
+    background-color: #d48c0f;
+    border: none;
+}
+
+/*home section*/
+
+/*Book section*/
+
+.Book {
+    margin-top: 80px;
+}
+
+.btn_ {
+       color: #fdfafa;
+    border-color: #ffffff !important;
+    border-radius: 8px !important;
+    height: 40px;
+    width: 110px;
+    border: 2px solid #003459;
+    background-color: #e29612;
+    transition: all 0.42s;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.btn_:hover {
+     color: #070707;
+
+    background-color: #d48c0f;
+    width: 115px;
+
+}
+
+.Book span {
+    color: #d48c0f;
+}
+
+.Book h1 {
+    text-align: center;
+    margin: 20px;
+    color: black;
+}
+
+.card-img {
+    display: flex;
+
+    width: 100%;
+    height: 97%;
+    margin-bottom: 30px !important;
+
+    border: none;
+
+}
+
+.Book form textarea {
+    height: 150px;
+    box-shadow: 0px 5px 4px -6px black;
+    max-height: 150px;
+}
+
+.Book form input {
+    box-shadow: 0px 5px 4px -6px black;
+}
+
+
+/*Book section*/
+
+
+/*Packages section*/
+.Packages {
+    margin-top: 100px;
+}
+
+.Packages span {
+    color: #d48c0f;
+}
+
+.Packages h1 {
+    text-align: center;
+    margin: 20px;
+    color: black;
+}
+
+.checked {
+    color: #f1a829;
+}
+
+.btn__ {
+    color: #f9f9f9;
+    border: none;
+    border-radius: 7px;
+    background-color: #f1a829;
+    width: 110px;
+    height: 37px;
+    transition: all 0.50s;
+}
+
+.btn__:hover {
+    color: #0c0c0c;
+}
+
+.card-img-top {
+    max-height: 280px;
+}
+
+.cards {
+    margin-bottom: 30px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 6px 12px;
+    transition: all .42s;
+
+}
+
+.cards:hover {
+    transform: translateY(-5px);
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 20px;
+}
+
+
+
+/*Packages section*/
+
+/*Services section*/
+
+.services {
+    background: #f9f9f9;
+    margin-top: 80px;
+}
+
+.services span {
+    color: #d48c0f;
+
+}
+
+.services h1 {
+    text-align: center;
+    margin: 20px;
+    color: black;
+}
+
+.services .card {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.services i {
+    font-size: 80px;
+    text-align: center;
+    color: #ffa500;
+    margin-top: 20px;
+}
+
+.services .card-body {
+    text-align: center;
+}
+
+.services .card {
+    margin-bottom: 30px;
+    min-height: 320px !important;
+    transition: all 0.4s;
+}
+
+.services .card:hover {
+    transform: translateY(-5px);
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 20px;
+}
+
+/*Services section*/
+
+/*Gallery section*/
+.Gallery {
+    margin-top: 80px;
+
+}
+
+.Gallery span {
+    color: #d48c0f;
+
+}
+
+.Gallery h1 {
+    text-align: center;
+    margin: 20px;
+    color: black;
+}
+
+.Gallery .card img {
+    border-radius: 10px;
+    transition: 0.5s;
+    height: 230px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 4px 12px;
+
+}
+
+.Gallery .card img:hover {
+    transform: scale(1.1);
+}
+
+.Gallery .card {
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+
+}
+
+/*Gallery section*/
+
+/*About section*/
+.About {
+    margin-top: 80px;
+
+    background: #f9f9f9;
+
+}
+
+.About span {
+    color: #d48c0f;
+
+}
+
+.About h1 {
+    text-align: center;
+    margin: 20px;
+    color: black;
+}
+
+.About .card {
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.About .card img {
+    height: 300px;
+    border-radius: 10px;
+
+
+}
+
+
+.About h2 {
+    font-weight: 600;
+
+}
+
+.About-btn {
+    width: 150px;
+    height: 38px;
+    border: none;
+    border-radius: 5px;
+    background: #d48c0f;
+    color: white;
+    font-weight: 550;
+    transition: 0.5s ease;
+    margin-bottom: 10px;
+}
+
+.About-btn:hover {
+
+    width: 165px;
+}
+
+
+.line-height {
+    line-height: 35px;
+}
+
+
+/*About section*/
+
+/*Footer section */
+
+
+.footer{
+  
+    width: 100%;
+    margin-top: 120px;
+    background: #f9f9f9;
+    text-align: center;
+}
+
+.footer h1{
+    color: #070707 !important;
+    padding-top: 50px;
+text-shadow: 0px 0px 1px black;
+
+}
+
+.footer h1 span {
+
+    color: #d48c0f;
+
+}
+.footer p{
+    color: #070707;
+}
+.social-links i{
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 25px;
+    background: black;
+    color: white;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    transition: 0.5s ease;
+    cursor: pointer;
+  
+}
+
+.social-links i:hover{
+    background: #cd9915;
+}
+/*Footer section */
+>>>>>>> 9e3d908 (Initial commit: Travel Website with Bootstrap 5)
